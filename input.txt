@@ -1,0 +1,8 @@
+G -> E
+E -> T R
+R -> + T R | - T R | ε
+T -> F S
+S -> * F S | / F S | ε
+F -> ( E ) | M | N
+M -> a | b | c | d
+N -> 0 | 1 | 2 | 3
