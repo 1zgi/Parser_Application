@@ -1,6 +1,7 @@
-
 from Parser import Parser
 
-parser = Parser("input.txt")
+nameTxt = input('Enter the name of the correct inputs file as "input.txt" \n or wrong inputs file as "inputWrong.txt" '
+                'format: \n')
+parser = Parser(nameTxt)
 
 parser.G()
